@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wordle Multiplayer</title>
+  <style>
+    #word-length {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Wordle Multiplayer</h1>
+  <div id="word-length"></div>
+  <input type="text" id="guess-input" placeholder="Enter your guess">
+  <button id="guess-button">Guess</button>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
